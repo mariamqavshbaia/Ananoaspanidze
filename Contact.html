@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariam Qavshbaia-Contact</title>
+    <link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+    <nav class="navBar">
+
+        <a class="MQ" href="index.html"><h1>Mariam Qavshbaia</h1></a>
+     
+       <h2 class="PageName">Contact</h2>
+     
+        <div class="links">
+            <a class="link" style="margin-left: -50px;" href="index.html">Main Page</a>
+            <a class="link" style="margin-left: 20px;"  href="AboutMe.html">About Me</a>
+        </div>
+    
+    </nav>
+
+    <div class="MyContacts">
+        <img class="Mail" src="http://freelogopng.com/images/all_img/1657906169gmail-logo-png.png" alt="">
+        <h3 class="Mname">Mail: qavshbaiamariam@gmail.com</h3>
+
+        <img class="Number" src="http://cdn.onlinewebfonts.com/svg/img_231227.png" alt="">
+        <h3 class="number">Phone Number: +995 558-78-92-00</h3>
+    </div>
+
+
+    <div class="MySocial">
+        <img class="FB" src="https://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19757.png" alt="">
+        <a class="fbl" href="https://www.facebook.com/profile.php?id=100009446060962"><h3 class="fb">My Facebook: Mariam Qavshbaia</h3></a>
+
+        <img class="IG" src="https://webstockreview.net/images/instagram-clipart-translucent-10.png" alt="">
+        <a class="igl" href="https://www.instagram.com/_m.aria.m.i_/ "><h3 class="ig">My Instagram: _m.aria.m.i_</h3></a>
+    </div>
+
+
+    <form class="form" action="Contact.html" method="get">
+        <label id="Gmail" for="Gmail">Gmail:</label>
+        <input type="email" id="Gmail" name="Gmail"><br><br>
+
+        <label id="Name" for="Name">Name:</label>
+        <input type="text" id="Name" name="Name"><br><br>
+
+        <label for="Message">Your Message:</label>
+        <input type="text" name="Message" id="Message" class="Message" maxlength="200"><br><br>
+
+        <input type="submit" value="Submit" id="submit">
+      </form>
+</body>
+<style>
+    .Message{
+        width: 200px;
+    }
+    #submit{
+        width: 207px;
+        margin-top: 5px;
+        margin-left: 100px;
+        height: 40px;
+    }
+    #submit:hover{
+        cursor: pointer;
+        background: lime;
+        transition: 1s;
+    }
+    #Gmail, #Name{
+        width: 200px;
+        margin-top: 5px;
+        margin-left: 27px;
+    }
+    .fbl,.igl{
+        text-decoration: none;
+        color: black;
+    }
+    .fbl:hover,.igl:hover{
+        color: rgb(0, 213, 255);
+        transition: 0.5s;
+    }
+    .fb,.ig{
+        margin-top: -35px;
+        margin-left: 100px;
+    }
+    .FB,.IG{
+        width: 40px;
+        height: 40px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .number{
+        margin-top: -27px;
+        margin-left: 78px;
+    }
+    .Number{
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .Mname{
+        margin-top: -43px;
+        margin-left: 80px;
+    }
+    .Mail{
+        width: 40px;
+        height: 30px;
+        padding: 20px;
+    }
+    .PageName{
+        margin-left: 30%;
+    }
+    h1{
+        margin-left: 25px;
+    }
+    .links{
+        margin-left: 33%;
+        display: flex;
+        align-items: center;
+    }
+    .link{
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .link:hover{
+        color: rgb(0, 213, 255);
+        transition: 0.5s;
+    }
+</style>
+</html>

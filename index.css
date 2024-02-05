@@ -1,0 +1,20 @@
+body{
+    overflow-x: hidden;
+    display: flex;
+}
+.navBar{  
+
+    background: rgb(238, 0, 255);
+    display: flex;
+    margin-top: -8px;
+    margin-left: -8px;
+    width: 102%;
+}
+.MQ{
+    text-decoration: rosybrown;
+    color: palevioletred;
+}
+.MQ:hover{
+    color:blue;
+    transition: 0.5s;
+}

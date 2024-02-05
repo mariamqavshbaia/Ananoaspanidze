@@ -1,0 +1,40 @@
+body{
+    overflow-x: hidden;
+}
+.navBar{
+    background: rgb(238, 0, 255);
+    display: flex;
+    margin-top: -8px;
+    margin-left: -8px;
+    width: 102%;
+}
+.MQ{
+    text-decoration: none;
+    color: black;
+}
+.MQ:hover{
+    color: white;
+    transition: 0.5s;
+}
+.MyContacts{
+    background: rgb(238, 0, 255);
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 180px;
+    width: 450px;
+}
+.MySocial{
+    background: rgb(238, 0, 255);
+    margin-left: 62%;
+    margin-top: -180px;
+    height: 180px;
+    width: 400px;
+}
+.form{
+    background: rgb(238, 0, 255);
+    margin-left: 500px;
+    width: 400px;
+    height: 200px;
+    margin-top: 40px;
+    display: block;
+}
